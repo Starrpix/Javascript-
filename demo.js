@@ -58,6 +58,7 @@ let d = 10;
 console.log(typeof(d));
 
 let e = new Number(14353425324352312432);
+//let e = new Number("14353425324352312432");
 console.log(e); // limitation in number
 console.log(e.toPrecision());
 console.log(typeof(e));
