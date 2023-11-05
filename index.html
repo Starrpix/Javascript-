@@ -14,12 +14,21 @@
     </script>
 -->    
 <!--<script defer src=""></script> best to use when one js file is dependent upon other to load later-->
-<script async="async" src="/function.js">
+<script async="async" src="/console.js">
 
 </script>
 
+
+<script  src="/sharecm.js" type="module">
+
+</script>
+
+<script nomodule src="file.js"></script>
+
 </head>
 <body>
+
+<p>Test</p>
 
 <!--inline-->
 <span onclick="document.write('Hello')">Hello World</span>
